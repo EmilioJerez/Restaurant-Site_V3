@@ -1,13 +1,8 @@
 /*
 	Name: Emilio Jerez
-	Date Created: 9/13/2018
+	Date Created:9/13/2018
 	Most recent revision: 9/14/18
 */
-
-header{
-	text-align: center;
-}
-
 footer{
 	text-align: center;
 }
@@ -38,12 +33,10 @@ a:link {
 
 .header {
   color: #D0CDC2;
-  font-family: 'Quicksand', serif;
 }
 
 footer{
-    color: #D0CDC2;
-  font-family: 'Quicksand', serif;
+  color: #D0CDC2;
 }
 
 hr {
@@ -51,6 +44,7 @@ hr {
   border-style: dashed;
   border-color: #FFF123;
 }
+
 
 .item {
   max-height: 250px;
@@ -60,6 +54,7 @@ hr {
   min-height: 200px;  
 }
 
+/*Filter for images in carousel*/
 .item:after {
   content:"";
   display:block;
@@ -85,18 +80,12 @@ label{
   .item {
     height: 250px;
   }
-/*label{
-  text-align: right;
-}*/
 }
 
 @media (max-width: 768px) {
   .item {
     height: 200px;
   }
-/*  label{
-    text-align: right;
-  }*/
 }
 
 @media (max-width: 576px) {
